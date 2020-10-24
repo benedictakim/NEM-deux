@@ -6,7 +6,6 @@ This code is the server side (NEM) of MERN application "DogEarD" - a book club a
 ### Install
 
 *npm run seed
-
 *npm install
 *npm start
 
