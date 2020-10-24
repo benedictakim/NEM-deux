@@ -6,6 +6,7 @@ This code is the server side (NEM) of MERN application "DogEarD" - a book club a
 ### Install
 
 *npm run seed
+
 *npm install
 *npm start
 
@@ -21,7 +22,12 @@ AS A USER after login:
 
 
 ## API Functions
- 
+
+First Header  | Second Header |
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+```
 Methods |	URLs    	|       Actions
 GET	        api/books	        Get all books
 GET	        api/books/:id	    Get Book by id
