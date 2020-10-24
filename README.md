@@ -25,8 +25,8 @@ AS A USER after login:
 
 Methods |	URLs    	|       Actions
 GET	        api/books	        Get all books
-GET	        api/books/:id	    Get Book by id
-GET	        api/user/:book_id	   Get Users by book_id
+GET	        api/books/:id	      Get Book by id
+GET	        api/user/:book_id	  Get Users by book_id
 GET	        api/books/:user_id	Get Books by user_id
 PUT	        api/user/	        Add new Books to user
 PUT	        api/books	        Add new User to Books
