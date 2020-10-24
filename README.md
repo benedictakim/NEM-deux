@@ -1,7 +1,7 @@
 # NEM-deux
 
 ## DogEarD App Node-Express-Mongoose (NEM) | Server-side
-This code is the app side (NEM) of MERN application "DogEarD" - a book club application that matches users based on shared book interests.
+This code is the server side (NEM) of MERN application "DogEarD" - a book club application that matches users based on shared book interests.
 
 ### Install
 
