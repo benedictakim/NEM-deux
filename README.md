@@ -5,11 +5,9 @@ This code is the server side (NEM) of MERN application "DogEarD" - a book club a
 
 ### Install
 
-*npm run seed
-
-*npm install
-
-*npm start
+1. npm run seed
+2. npm install
+3. npm start
 ```
 ## User Functionalities
 
