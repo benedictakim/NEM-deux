@@ -14,7 +14,8 @@
 		"Author": "Richard Powers",
 		"Award_Year": "2019",
 		"Fiction": "Y",
-		"URL to cover image": "https://www.pulitzer.org/cms/sites/default/files/content/9780393356687_300.jpeg"
+		"URL to cover image": "https://www.pulitzer.org/cms/sites/default/files/content/9780393356687_300.jpeg",
+		"users": ["5f95f65dddcc6f47305bd1a8"]
 	},
 	{
 		"Id": "3",
@@ -22,7 +23,8 @@
 		"Author": "Andrew Sean Greer",
 		"Award_Year": "2018",
 		"Fiction": "Y",
-		"URL to cover image": "https://www.pulitzer.org/cms/sites/default/files/content/31933085.jpg"
+		"URL to cover image": "https://www.pulitzer.org/cms/sites/default/files/content/31933085.jpg",
+		"users":["5f95f65dddcc6f47305bd1a9"]
 	},
 	{
 		"Id": "4",
@@ -30,7 +32,8 @@
 		"Author": "Colson Whitehead",
 		"Award_Year": "2017",
 		"Fiction": "Y",
-		"URL to cover image": "https://www.pulitzer.org/cms/sites/default/files/content/whitehead-cover.jpg"
+		"URL to cover image": "https://www.pulitzer.org/cms/sites/default/files/content/whitehead-cover.jpg",
+		"users":["5f95f65dddcc6f47305bd1aa"]
 	},
 	{
 		"Id": "5",
@@ -70,7 +73,8 @@
 		"Author": "Jennifer Egan",
 		"Award_Year": "2011",
 		"Fiction": "Y",
-		"URL to cover image": "https://www.pulitzer.org/cms/sites/default/files/content/egancover2011.jpg"
+		"URL to cover image": "https://www.pulitzer.org/cms/sites/default/files/content/egancover2011.jpg",
+		"users":["5f95f65dddcc6f47305bd1a7","5f95f65dddcc6f47305bd1a9","5f95f65dddcc6f47305bd1ab"]
 	},
 	{
 		"Id": "10",

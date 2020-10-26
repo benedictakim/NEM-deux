@@ -23,6 +23,7 @@ module.exports = {
         .catch(err => res.status(422).json(err))
     },
     create: async function(req,res) {
+      try {
         user = req.params;
         id = user.id
         const {title, author, award_year} = req.body;
@@ -35,6 +36,10 @@ module.exports = {
         });
         await book.save();
         res.send()
+      }
+      catch(err) {
+        res.status(422).json(err)
+      }
     },    
     userbyBook: async function(req,res) {
         const {id} = req.params;

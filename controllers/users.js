@@ -20,18 +20,23 @@ module.exports = {
         .catch(err => res.status(422).json(err))
     },
     create: async function(req,res) {
-        book = req.params;
-        id = book.id
-        const {username, password} = req.body;
-        const bookById = await Book.findById(id);
-        const book = await User.create({
-            name,
-            password,
-            book: bookById
-        });
-        await user.save();
-        res.send()
-    }, 
+        try {
+            book = req.params;
+            id = book.id
+            const {username, password} = req.body;
+            const bookById = await Book.findById(id);
+            const book = await User.create({
+                name,
+                password,
+                book: bookById
+            });
+            await user.save();
+            res.send()
+        }
+        catch(err) {
+            res.status(422).json(err)
+        }
+    },
     booksByUser: async function(req,res) {
         const {id} = req.params;
         const booksByUser = await (await User.findById(id)).populate('book');
