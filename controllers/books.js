@@ -22,17 +22,17 @@ module.exports = {
         .then(dbModel => res.json(dbModel))
         .catch(err => res.status(422).json(err))
     },
-    create: async function(req,res) {
+    update: async function(req,res) {
       try {
         user = req.params;
         id = user.id
         const {title, author, award_year} = req.body;
         const userById = await User.findById(id);
-        const book = await Book.create({
+        const book = await Book.update({
             title,
             authors,
             award_year,
-            user: userById
+            users: userById
         });
         await book.save();
         res.send()

@@ -10,7 +10,8 @@ router.route("/")
 router
   .route("/:id")
   .get(usersController.findById)
-  // .put(usersController.update)
+  .put(usersController.update)
+  .get(usersController.booksByUser)
   // .delete(usersController.remove);
 
 module.exports = router;
